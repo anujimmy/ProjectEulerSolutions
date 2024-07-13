@@ -6,6 +6,7 @@ Author : Anu Jimmy
 002 - even fibonacci numbers
 003 - largest prime factor
 004 - Largest Palindrome - product of 3 digit numbers
+005 - LCM of first 20 digits
 
 
 
