@@ -2,9 +2,9 @@ package ProjectEulerSolutions;
 
 public class Euler003_PrimeNumber {
     public static void main(String[] args) {
-
+        long startTime = System.nanoTime();
         System.out.println("Project Euler Problem 003 - largest prime factor");
-        long X = 510510l;
+        long X = 510510L;
         long bigPrime = 0;
         //check if number is divisible by 2
         while(X % 2 == 0){
@@ -38,6 +38,9 @@ public class Euler003_PrimeNumber {
             bigPrime = X;
         }
         System.out.println("Largest Prime - " + bigPrime);
-
+        long estimatedTime = System.nanoTime() - startTime;
+        if(estimatedTime <= 1E+9){
+            System.out.println("Program took less than or equal to 1S");
+        }
     }
 }

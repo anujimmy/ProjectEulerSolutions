@@ -2,6 +2,7 @@ package ProjectEulerSolutions;
 
 public class Euler004_LargestPalindromeNumber_3digits {
     public static boolean checkPalindrome(int iNo){
+
         int jNo = iNo;
         int ReverseNum = 0;
         //int noOfdigits = (int)Math.log10(iNo)+1;
@@ -13,6 +14,7 @@ public class Euler004_LargestPalindromeNumber_3digits {
         return ReverseNum == jNo;
     }
     public static void main(String[] args) {
+        long startTime = System.nanoTime();
         System.out.println("Project Euler Problem 004 - largest palindrome number made from product of 3 digit numbers");
         int iMax = 0;
             // i>=100 is not used as 100 * 100 is not a palindrome
@@ -28,5 +30,9 @@ public class Euler004_LargestPalindromeNumber_3digits {
                 }
             }
         System.out.println("largest palindrome is " + iMax);
+        long estimatedTime = System.nanoTime() - startTime;
+        if(estimatedTime <= 1E+9){
+            System.out.println("Program took less than or equal to 1S");
+        }
     }
 }

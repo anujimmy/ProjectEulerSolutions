@@ -2,7 +2,7 @@ package ProjectEulerSolutions;
 
 public class Euler002_FibonacciSeries {
     public static void main(String[] args) {
-        System.out.println("Project Euler Problem 001 - Even fibonacci numbers");
+        long startTime = System.nanoTime();
         int i = 0;
         int j = 1;
         int maxfib = 4000000;
@@ -24,6 +24,9 @@ public class Euler002_FibonacciSeries {
             j=newJ;
 
         }
-
+        long estimatedTime = System.nanoTime() - startTime;
+        if(estimatedTime <= 1E+9){
+            System.out.println("Program took less than or equal to 1S");
+        }
     }
 }
