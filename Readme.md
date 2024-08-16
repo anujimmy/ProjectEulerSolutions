@@ -10,7 +10,7 @@ Author : Anu Jimmy
 
 004 - Largest Palindrome - product of 3 digit numbers
 
-005 - smallest positive number that is evenly divisible by all of the numbers from 1 to 20
+005 - smallest positive number that is evenly divisible by all of the numbers from 1 to 20(not solved)
 
 006 - difference between the sum of the squares of the first one hundred natural numbers and the square of the sum
 
