@@ -1,6 +1,9 @@
 
 About :this Project is only for Project Euler Solutions.
 Author : Anu Jimmy
+About Project Euler : Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve.
+
+
 
 001 - sum of multiples of 3 or 5 under 1000
 
